@@ -1,0 +1,5 @@
+Implementation Notes:
+http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/
+The authors of Word2Vec addressed these issues in their second paper with the following two innovations:
+1. Subsampling frequent words to decrease the number of training examples.
+2. Modifying the optimization objective with a technique they called “Negative Sampling”, which causes each training sample to update only a small percentage of the model’s weights.
